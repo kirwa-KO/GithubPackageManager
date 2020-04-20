@@ -3,13 +3,12 @@
 function	push ()
 {
 	git add .
-	echo $1
-	git commit -m${1}
+	git commit -m"$1"
 	if [ $# -gt 1 ]
 	then
 		git push -u origin $2
 	else
-		git push -u origin master
+		git push
 	fi
 }
 
@@ -65,7 +64,7 @@ case	"$1" in
 			exit
 		elif [ $# -eq 2 ]
 		then
-				push $2
+				push "$2"
 		else
 			push $2 $3
 		fi
