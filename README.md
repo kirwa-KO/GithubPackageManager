@@ -16,7 +16,7 @@ source ~/.zshrc
 ```
 cp kirwa /usr/bin
 ```
-## now you use the kirwa command line
+## now can you use the kirwa command line
 
 #### if you want to a git represotory just type :
 ```
