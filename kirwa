@@ -2,9 +2,7 @@
 
 function	push ()
 {
-	pwd
-	git add *
-	echo $PWD
+	git add .
 	git commit -m\"$1\"
 	if [ $# -gt 1 ]
 	then
