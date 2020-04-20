@@ -3,7 +3,7 @@
 function	push ()
 {
 	git add .
-	git commit -m\"$1\"
+	git commit -m${1}
 	if [ $# -gt 1 ]
 	then
 		git push -u origin $2
