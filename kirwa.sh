@@ -6,6 +6,7 @@ function	push ()
 	git commit -m\"$1\"
 	if [ $# -gt 1 ]
 	then
+		echo kjfbngk
 		git push -u origin $2
 	else
 		git push -u origin master
