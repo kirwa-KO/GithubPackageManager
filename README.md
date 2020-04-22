@@ -14,6 +14,9 @@ source ~/.zshrc
 ```
 ## after that
 ```
+chmod 744 kirwa
+```
+```
 cp kirwa /usr/bin
 ```
 ## now can you use the kirwa command line
